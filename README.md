@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/fastmcp_first_principles_thumbnail.jpg" alt="Learning FastMCP from First Principles" width="100%">
+  <img src="./assets/Learn FastMCP from First Principles.png" alt="Learning FastMCP from First Principles" width="100%">
 </p>
 
 # MCP — Model Context Protocol from First Principles
