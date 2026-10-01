@@ -535,6 +535,65 @@ Topics:
 
 ---
 
+# Hands-On Projects
+
+This repository is the central learning hub for the MCP course. The projects below are maintained as separate repositories so each implementation can be run, documented, and evolved independently.
+
+## Remote MCP Server
+
+**[test-remote-mcp-server](https://github.com/Rajendra-Pd-Joshi/test-remote-mcp-server)**
+
+A hands-on remote MCP server implementation focused on taking MCP beyond local development and working with a remotely hosted server. This project is useful for learning:
+
+- Building a practical MCP server with Python and FastMCP
+- Remote MCP connectivity
+- Streamable HTTP / remote transport concepts
+- Deployment-oriented configuration
+- Authentication and OAuth-related flows
+- Testing and debugging remote MCP connections
+
+**Learning connection:** This project extends the concepts introduced in the **Transport and Connections**, **Security**, **Debugging**, and **Production MCP** sections of this repository.
+
+## LangGraph MCP Client
+
+**[langgraph-mcp-client](https://github.com/Rajendra-Pd-Joshi/langgraph-mcp-client)**
+
+A hands-on LangGraph client that explores building an agent/chatbot around MCP instead of manually wiring every tool into the application. It connects the MCP capability layer with an agentic workflow.
+
+This project is useful for learning:
+
+- Connecting LangGraph applications to MCP
+- MCP client integration
+- Discovering and using MCP tools
+- Replacing manual tool integrations with MCP
+- Combining MCP with LLM-powered agent workflows
+
+**Learning connection:** This project extends the **MCP Client**, **MCP + LLM**, and **MCP + Agentic AI** sections of this repository.
+
+### Project Relationship
+
+The learning path can be viewed as:
+
+```
+MCP Fundamentals
+       ↓
+MCP Architecture
+       ↓
+Build MCP Server
+       ↓
+Build MCP Client
+       ↓
+Remote MCP Server
+       ↓
+MCP + LangGraph
+       ↓
+Agentic AI Applications
+```
+
+The main **MCP** repository explains the concepts and learning sequence, while the companion repositories contain focused implementations and experiments.
+
+---
+
 # Suggested Repository Structure
 
 As the course grows, the repository can evolve toward:
