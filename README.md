@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/fastmcp_first_principles_thumbnail.jpg" alt="Learning FastMCP from First Principles" width="100%">
+</p>
+
 # MCP — Model Context Protocol from First Principles
 
 > A first-principles learning repository for understanding **MCP (Model Context Protocol)** from the ground up — starting with **why**, then **what**, and finally **how**.
